@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Mali:ital,wght@1,500&family=Poppins:wght@400;500;600;700&display=swap");
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: #fbfbfc;
+}
+
+.cargo-logo {
+  font-family: "Mali", cursive;
+  font-style: italic;
+  font-weight: 500;
+}
+
+.cargo-logo--on-dark {
+  color: #f7f9fc;
+  text-shadow: 0 6px 20px rgba(0, 0, 0, 0.18);
+}
+
+.cargo-logo--on-light {
+  color: #27489f;
+  text-shadow: 0 10px 24px rgba(0, 0, 0, 0.25);
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
