@@ -270,7 +270,7 @@ export default function SellerDashboardPage({
           setSaving(false);
           return;
         }
-        await productApi.seller.create(fd);
+        await productApi.create(fd);
         flash("Product created.");
       }
       setProductForm({ open: false, product: null });
